@@ -355,7 +355,7 @@ embed,iframe,object,video {
 }
 .header_alt ul li > a:hover {
     text-decoration: underline;
-    color: #fddd6c;
+    color: #f72e2e;
 }
 .header_alt ul li > a:focus,
 .header_alt ul > li > a:active {
@@ -966,7 +966,7 @@ main input[type="submit"],
     border-radius: 0px;
     border-width: 1px 1px 1px 1px;
     border-style: solid;
-    border-color: #fddd6c;
+    border-color: #f72e2e;
     background-color: rgba(253,221,108,1);
     box-shadow: none;
     color: rgba(28,28,28,1);
@@ -2710,7 +2710,7 @@ body #kc-footers > ul {background-color: #fff}
 .related .rblock h5 {margin: 15px 20px 10px 20px; text-align: left;line-height: 1.5em;display: -webkit-box;-webkit-box-orient: vertical;overflow: hidden;-webkit-line-clamp: 1;
 }
 .related .rblock h5 a {color: #1c1c1c; font-size: 16px; text-decoration: none;line-height: 24px;display: block;overflow: hidden;}
-.related .rblock h5 a:hover {color: #fddd6c;}
+.related .rblock h5 a:hover {color: #f72e2e;}
 .rblock .wr .descr {padding-left: 20px;padding-right: 35px;text-align: justify;padding-bottom: 0;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;text-overflow: ellipsis;margin-bottom: 25px}
 .blogsidebarspage .related .rblock {width: 48%;margin-right: 4%;}
 .blogsidebarspage .related .rblock:nth-of-type(3) {margin-right: 0;}
