@@ -3548,13 +3548,20 @@
                                                                     class="menu-link main-menu-link">
                                                                     <span>About Us</span></a>
                                                             </li>
-                                                            <!-- PRICE TABLE -->
+                                                            <!-- PRICE TABLE 
+												<li id="nav-menu-item-3269"
+													class=" slm-dropd-item main-menu-item slm-mega-item  menu-item-even slm-menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page both"
+													style="z-index: 1; "><a href="#price-scroll"
+														class="menu-link main-menu-link">
+														<span>Prices</span></a>
+												</li>
+												-->
+                                                            <!-- BLOG -->
                                                             <li id="nav-menu-item-3269"
                                                                 class=" slm-dropd-item main-menu-item slm-mega-item  menu-item-even slm-menu-item-depth-0 menu-item menu-item-type-post_type menu-item-object-page both"
-                                                                style="z-index: 1; "><a
-                                                                    href="../index.html#price-scroll"
-                                                                    class="menu-link main-menu-link">
-                                                                    <span>Prices</span></a>
+                                                                style="z-index: 1; "><a href="../blog/index.html"
+                                                                    target="_blank" class="menu-link main-menu-link">
+                                                                    <span>Blog</span></a>
                                                             </li>
 
                                                             <!--SERVICES-->
@@ -3851,7 +3858,7 @@
                                 </div>
                             </div>
                         </section>
-                        <!--
+                        
                         <section class="kc-elm kc-css-30252 kc_row">
                             <div class="befbgr" data-ssc-svg="" data-ssc-img-s="" data-ssc-img-anim=""></div>
                             <div class="befbgr" data-ssc-svg="" data-ssc-img-s="" data-ssc-img-anim=""></div>
@@ -3863,192 +3870,6 @@
                             <div class="aftbgr8" data-ssc-svg="" data-ssc-img-s="" data-ssc-img-anim=""></div>
                             <div class="kc-row-container">
                                 <div class="kc-wrap-columns">
-                                    <div class="kc-elm kc-css-255107 kc_col-sm-6 kc_column kc_col-sm-6">
-                                        <div class="kc-col-container">
-                                            <div class="kc-elm kc-css-237411 kc-raw-code">
-                                                <div id="map2" style="height:815px"></div>
-                                                <script>
-                                                    function initMap2() {
-                                                        // Styles a map in night mode.
-                                                        var map = new google.maps.Map(document.getElementById('map2'), {
-                                                            center: { lat: 40.674, lng: -73.945 },
-                                                            zoom: 12,
-                                                            styles: [
-                                                                {
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#f5f5f5"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "elementType": "labels.icon",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "visibility": "off"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#616161"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "elementType": "labels.text.stroke",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#f5f5f5"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "administrative.land_parcel",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#bdbdbd"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "poi",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#eeeeee"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "poi",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#757575"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "poi.park",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#e5e5e5"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "poi.park",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#9e9e9e"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "road",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#ffffff"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "road.arterial",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#757575"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "road.highway",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#dadada"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "road.highway",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#616161"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "road.local",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#9e9e9e"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "transit.line",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#e5e5e5"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "transit.station",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#eeeeee"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "water",
-                                                                    "elementType": "geometry",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#c9c9c9"
-                                                                        }
-                                                                    ]
-                                                                },
-                                                                {
-                                                                    "featureType": "water",
-                                                                    "elementType": "labels.text.fill",
-                                                                    "stylers": [
-                                                                        {
-                                                                            "color": "#9e9e9e"
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            ]
-                                                        });
-                                                        var image = '../wp-content/uploads/2020/04/Icon_cont.png';
-                                                        var beachMarker = new google.maps.Marker({
-                                                            position: { lat: 40.674, lng: -73.945 },
-                                                            map: map,
-                                                            icon: image
-                                                        });
-                                                    }
-                                                </script>
-
-                                                <script
-                                                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJGtQbYjs914nYtcIV8EHEjwzAYO4KvQ0&amp;callback=initMap2"
-                                                    async defer></script>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <div class="kc-elm kc-css-816849 kc_col-sm-6 kc_column kc_col-sm-6">
                                         <div class="kc-col-container">
                                             <div class="ssc_mltttl  kc-elm kc-css-63463 ">
@@ -4059,9 +3880,6 @@
                                             <div class="ssc_caldf kc-elm kc-css-2143568 cont_form">
                                                 <div class="caldera-grid" id="caldera_form_2" data-cf-ver="1.8.11"
                                                     data-cf-form-id="CF5e86e4998e6d4">
-                                                    <div id="caldera_notices_2"
-                                                        data-spinner="https://demo30.atiframe.com/wp-admin/images/spinner.gif">
-                                                    </div>
                                                     <form data-instance="2"
                                                         class="CF5e86e4998e6d4 caldera_forms_form cfajax-trigger"
                                                         method="POST" enctype="multipart/form-data"
@@ -4240,73 +4058,7 @@
                                             <div class="wr deb derb dea dera none nonea"><span class="t1">Social
                                                     Media</span></div>
                                         </div>
-                                        <!--
-                                										<div class="ssc_caldf kc-elm kc-css-845377 footer_form">
-                                											<div class="caldera-grid" id="caldera_form_1" data-cf-ver="1.8.11"
-                                												data-cf-form-id="CF5da6f9757b319">
-                                												<div id="caldera_notices_1" data-spinner="wp-admin/images/spinner.gif">
-                                												</div>
-                                												<form data-instance="1"
-                                													class="CF5da6f9757b319 caldera_forms_form cfajax-trigger"
-                                													method="POST" enctype="multipart/form-data" id="CF5da6f9757b319_1"
-                                													data-form-id="CF5da6f9757b319" aria-label="1 field subscribe"
-                                													data-target="#caldera_notices_1"
-                                													data-template="#cfajax_CF5da6f9757b319-tmpl"
-                                													data-cfajax="CF5da6f9757b319" data-load-element="_parent"
-                                													data-load-class="cf_processing" data-post-disable="0"
-                                													data-action="cf_process_ajax_submit"
-                                													data-request="https://demo30.atiframe.com/cf-api/CF5da6f9757b319"
-                                													data-hiderows="true">
-                                													<input type="hidden" id="_cf_verify_CF5da6f9757b319"
-                                														name="_cf_verify" value="5f4444788a"
-                                														data-nonce-time="1601811043" /><input type="hidden"
-                                														name="_wp_http_referer" value="/" />
-                                													<div id="cf2-CF5da6f9757b319_1"></div><input type="hidden"
-                                														name="_cf_frm_id" value="CF5da6f9757b319">
-                                													<input type="hidden" name="_cf_frm_ct" value="1">
-                                													<input type="hidden" name="cfajax" value="CF5da6f9757b319">
-                                													<input type="hidden" name="_cf_cr_pst" value="3874">
-                                													<div class="hide"
-                                														style="display:none; overflow:hidden;height:0;width:0;">
-                                														<label>Web Site</label><input type="text" name="web_site"
-                                															value="" autocomplete="off">
-                                													</div>
-                                													<div id="CF5da6f9757b319_1-row-1" class="row  first_row">
-                                														<div class="col-sm-9  first_col">
-                                															<div data-field-wrapper="fld_8510004" class="form-group"
-                                																id="fld_8510004_1-wrap">
-                                																<label id="fld_8510004Label" for="fld_8510004_1"
-                                																	class="control-label screen-reader-text sr-only">Email</label>
-                                																<div class="">
-                                																	<input placeholder="Your E-mail" required
-                                																		type="email" data-field="fld_8510004"
-                                																		class=" form-control" id="fld_8510004_1"
-                                																		name="fld_8510004" value="" data-type="email"
-                                																		aria-required="true"
-                                																		aria-labelledby="fld_8510004Label"> </div>
-                                															</div>
-                                														</div>
-                                														<div class="col-sm-3  last_col">
-                                															<div data-field-wrapper="fld_1739855" class="form-group"
-                                																id="fld_1739855_1-wrap">
-                                																<div class="">
-                                																	<input class="btn btn-default" type="submit"
-                                																		name="fld_1739855" id="fld_1739855_1" value=" "
-                                																		data-field="fld_1739855">
-                                																</div>
-                                															</div>
-                                															<input class="button_trigger_1" type="hidden"
-                                																name="fld_1739855" id="fld_1739855_1_btn" value=""
-                                																data-field="fld_1739855" />
-                                														</div>
-                                													</div>
-                                													<div id="CF5da6f9757b319_1-row-2" class="row  last_row">
-                                														<div class="col-sm-12  single"></div>
-                                													</div>
-                                												</form>
-                                											</div>
-                                										</div>
-                                										-->
+                                        
                                         <div class="kc-elm kc-css-557558 kc_row kc_row_inner sst-flex-row-inner">
                                             <div class="kc-elm kc-css-247406 kc_col-sm-5 kc_column_inner kc_col-sm-5">
                                                 <div class="kc_wrapper kc-col-inner-container">
@@ -4325,24 +4077,6 @@
                                                             <span></span>
                                                             <i class="fab-linkedin-in"></i>
                                                         </a>
-                                                        <!--
-                                														<a href="https://www.facebook.com/atiframe/" target="_blank"
-                                															title="" class="multi-icons-link multi-iconsfab-facebook-f">
-                                															<span></span>
-                                															<i class="fab-facebook-f"></i>
-                                														</a>
-                                														<a href="https://www.behance.net/secretlab/" target="_blank"
-                                															title="" class="multi-icons-link multi-iconsfab-instagram">
-                                															<span></span>
-                                															<i class="fab-instagram"></i>
-                                														</a>
-                                														<a href="https://twitter.com/atiframe" target="_blank" title=""
-                                															class="multi-icons-link multi-iconsfab-twitter">
-                                															<span></span>
-                                															<i class="fab-twitter"></i>
-                                														</a>
-                                														-->
-
                                                     </div>
                                                 </div>
                                             </div>
