@@ -3957,20 +3957,6 @@
                                                             </div>
                                                         </div>
                                                     </form>
-                                                    <script>
-                                                        const scriptURL = 'https://script.google.com/macros/s/AKfycbyUgXJaZaBVuODcsJonorxJjx9vvSv9zeIBOk17sO7So4IZ5ak/exec'
-                                                        const form = document.forms['submit-to-google-sheet']
-
-                                                        form.addEventListener('submit', e => {
-                                                            e.preventDefault()
-                                                            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                                                                .then(response => console.log('Success!', response))
-                                                                .catch(error => console.error('Error!', error.message))
-                                                        })
-                                                        document.getElementById("contactForm").onsubmit = function () {
-                                                            alert('Thank You For Submitting the form! We will contact you shortly .');
-                                                        }
-                                                    </script>
                                                 </div>
                                             </div>
                                         </div>
@@ -4122,6 +4108,27 @@
             </path>
         </svg></a>
 
+
+
+
+    <!--SCRIPT FOR CONTACT US FORM -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyUgXJaZaBVuODcsJonorxJjx9vvSv9zeIBOk17sO7So4IZ5ak/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+        document.getElementById("contactForm").onsubmit = function () {
+            alert('Thank You For Submitting the form! We will contact you shortly .');
+        }
+    </script>
+
+
+    
     <script src="../../web.webformscr.com/apps/fc3/build/loader.js"
         sp-form-id="f5dccc1014804daa53a5ca2f407f157cb5ad21622e17cf54af77c39f5f06643b"></script>
     <!-- Yandex.Metrika counter -->
